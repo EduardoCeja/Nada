@@ -1,0 +1,29 @@
+.list-item {
+  margin: 0 30px;
+  line-height: 20px;
+  word-spacing: 1px;
+  font-size: 18px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: rgba(255, 0, 0, 0.699);
+}
+
+.active-tab {
+  color: rgba(235, 42, 8, 0.74);
+  border-bottom: 2px solid rgba(235, 42, 8, 0.74);
+}
+
+.labels {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-bottom: 1px solid rgb(199, 197, 197);
+}
+
+.labels li {
+  display: inline;
+}
